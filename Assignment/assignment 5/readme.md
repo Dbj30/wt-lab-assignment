@@ -1,5 +1,4 @@
-!(Palettes)
-[palette.jpg]
+![Palettes](./palette.jpg)
 
 
 Color
