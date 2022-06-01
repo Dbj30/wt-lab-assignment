@@ -1,0 +1,46 @@
+/* Navbar Section*/
+
+.navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* Headings Section*/
+
+.headings {
+    font-size: 2.5rem;
+}
+
+
+/* About Section*/
+
+#pic {
+    flex-direction: column;
+    align-items: center;
+}
+
+#pic img {
+    height: 300px;
+    width: 320px;
+}
+
+#intro h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Contact Section*/
+
+.input {
+    width: 60%;
+}
+
+#msg {
+    width: 55%;
+}
+
+#send {
+    width: 20%;
+}
