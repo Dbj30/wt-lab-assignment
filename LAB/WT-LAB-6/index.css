@@ -1,0 +1,6 @@
+div {
+    padding: 10px;
+    border: 0.5px solid black;
+    margin: 10px auto;
+    cursor: pointer;
+}

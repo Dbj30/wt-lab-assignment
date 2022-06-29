@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        let box = ["one", "two", "three", "four", "five", "six", "seven"];
+        let a = 6,
+            b = 0;
+        let temp = 0;
+        console.log(box);
+        temp = box[a];
+        if (a > b) {
+            while (a > b) {
+                box[a] = box[a - 1];
+                a--;
+            }
+        } else {
+            while (a < b) {
+                box[a] = box[a + 1];
+                a++;
+            }
+        }
+        box[b] = temp;
+        console.log(box);
+    </script>
+</body>
+
+</html>
